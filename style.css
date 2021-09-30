@@ -1,5 +1,5 @@
 body {
-    background-color: #f3e9dc;
+    background-color: #3b413c;
     height: 100%;
     margin:0;
     padding:0;
@@ -9,12 +9,26 @@ body {
 .topnav {
     position: sticky;
     margin:0;
-    padding:15px 20px;
+    padding:20px 20px;
     overflow:hidden;
-    background-color: #DAB49D;
+    background-color: #9db5b2;
     font-size:large;
+    color: white;
+    text-decoration: none;
 }
 
-.topnav a:hover {
-    background-color: RED;
+a {
+    color: white;
+    text-decoration: none;
+    margin:0;
+    padding:20px 20px;
+}
+
+a:hover {
+    background-color: #3b413c;
+    padding:20px; 
+}
+
+a:active {
+    background-color:#DAF0EE;
 }
