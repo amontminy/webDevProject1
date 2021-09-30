@@ -1,0 +1,20 @@
+body {
+    background-color: #f3e9dc;
+    height: 100%;
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.topnav {
+    position: sticky;
+    margin:0;
+    padding:15px 20px;
+    overflow:hidden;
+    background-color: #DAB49D;
+    font-size:large;
+}
+
+.topnav a:hover {
+    background-color: RED;
+}
